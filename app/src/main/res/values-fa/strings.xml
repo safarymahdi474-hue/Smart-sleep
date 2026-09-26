@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">خواب هوشمند</string>
+
+    <!-- Home -->
+    <string name="home_title">امشب چه ساعتی می‌خوای بیدار شی؟</string>
+    <string name="earliest_wake_label">زودترین زمان بیداری</string>
+    <string name="latest_wake_label">دیرترین زمان بیداری</string>
+    <string name="start_sleep_button">شروع خواب 🌙</string>
+    <string name="invalid_window_error">زمان دیرترین بیداری باید بعد از زودترین باشد.</string>
+
+    <!-- Active sleep -->
+    <string name="sleep_active_title">خواب فعال است</string>
+    <string name="sleep_start_time_label">زمان شروع خواب</string>
+    <string name="estimated_fall_asleep_label">زمان تقریبی خواب رفتن</string>
+    <string name="wake_window_label">بازه بیداری</string>
+    <string name="suggested_wake_label">زمان پیشنهادی بیدار شدن</string>
+    <string name="time_remaining_label">زمان باقی‌مانده تا آلارم</string>
+    <string name="cancel_sleep_button">لغو خواب</string>
+    <string name="smart_wake_active_note">Smart Wake فعال است — این یک تخمین بهترین‌تلاش است، نه یک تشخیص پزشکی مراحل خواب.</string>
+
+    <!-- Alarm screen -->
+    <string name="alarm_wake_up">وقت بیدار شدنه</string>
+    <string name="alarm_snooze">چرت</string>
+    <string name="alarm_dismiss">خاموش کردن</string>
+    <string name="alarm_notification_title">وقت بیدار شدنه</string>
+    <string name="alarm_notification_text">برای باز کردن آلارم ضربه بزنید</string>
+    <string name="alarm_channel_name">آلارم</string>
+    <string name="alarm_channel_desc">اعلان‌های آلارم بیدار شدن</string>
+    <string name="smart_wake_channel_name">پایش Smart Wake</string>
+    <string name="smart_wake_channel_desc">پایش پس‌زمینه در بازه بیداری شما</string>
+    <string name="smart_wake_monitoring_notification">در حال جستجوی زمان مناسب برای بیدار کردن شما…</string>
+
+    <!-- Rating -->
+    <string name="rating_title">چطور خوابیدی؟</string>
+    <string name="rating_very_good">خیلی خوب خوابیدم</string>
+    <string name="rating_good">خوب بود</string>
+    <string name="rating_ok">معمولی بود</string>
+    <string name="rating_bad">بد بود</string>
+    <string name="rating_very_bad">خیلی بد بود</string>
+    <string name="woke_before_alarm_question">آیا قبل از آلارم خودتان بیدار شدید؟</string>
+    <string name="yes">بله</string>
+    <string name="no">خیر</string>
+    <string name="save">ذخیره</string>
+    <string name="skip">رد کردن</string>
+
+    <!-- Settings -->
+    <string name="settings_title">تنظیمات</string>
+    <string name="settings_sleep_cycle_length">مدت تقریبی چرخه خواب</string>
+    <string name="settings_onset_delay">مدت زمان معمول برای خواب رفتن</string>
+    <string name="settings_alarm_sound">صدای آلارم</string>
+    <string name="settings_volume">میزان صدا</string>
+    <string name="settings_vibration">لرزش</string>
+    <string name="settings_snooze_enabled">فعال‌سازی چرت (Snooze)</string>
+    <string name="settings_snooze_duration">مدت زمان چرت</string>
+    <string name="settings_smart_wake">Smart Wake</string>
+    <string name="settings_smart_wake_desc">تشخیص بهترین‌تلاش زمان بیداری بر اساس حرکت، در صورت پشتیبانی دستگاه. در غیر این‌صورت از زمان‌بندی بر پایه چرخه خواب استفاده می‌شود. این قابلیت تشخیص پزشکی مراحل خواب نیست.</string>
+    <string name="settings_dark_mode">تم تیره</string>
+    <string name="settings_time_format">فرمت ۲۴ ساعته</string>
+    <string name="settings_language">زبان</string>
+    <string name="settings_battery_optimization">اجازه اجرای مطمئن آلارم (غیرفعال کردن بهینه‌سازی باتری)</string>
+    <string name="minutes_format">%1$d دقیقه</string>
+
+    <!-- History -->
+    <string name="history_title">تاریخچه خواب</string>
+    <string name="history_empty">هنوز هیچ خوابی ثبت نشده است.</string>
+    <string name="history_planned_duration">برنامه‌ریزی‌شده</string>
+    <string name="history_actual_wake">بیداری واقعی</string>
+    <string name="weekly_chart_title">این هفته</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">خانه</string>
+    <string name="nav_history">تاریخچه</string>
+    <string name="nav_settings">تنظیمات</string>
+
+    <!-- Disclaimers -->
+    <string name="cycle_disclaimer">چرخه ۹۰ دقیقه‌ای یک تخمین رایج است، نه یک اندازه‌گیری دقیق پزشکی. این اپ مراحل خواب را تشخیص نمی‌دهد.</string>
+</resources>
