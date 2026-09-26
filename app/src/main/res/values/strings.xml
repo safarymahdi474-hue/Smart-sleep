@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Sleep</string>
+
+    <!-- Home -->
+    <string name="home_title">What time do you want to wake up tonight?</string>
+    <string name="earliest_wake_label">Earliest wake time</string>
+    <string name="latest_wake_label">Latest wake time</string>
+    <string name="start_sleep_button">Start Sleep 🌙</string>
+    <string name="invalid_window_error">Latest wake time must be after the earliest one.</string>
+
+    <!-- Active sleep -->
+    <string name="sleep_active_title">Sleep is active</string>
+    <string name="sleep_start_time_label">Sleep start time</string>
+    <string name="estimated_fall_asleep_label">Estimated time you fall asleep</string>
+    <string name="wake_window_label">Wake window</string>
+    <string name="suggested_wake_label">Suggested wake time</string>
+    <string name="time_remaining_label">Time remaining until alarm</string>
+    <string name="cancel_sleep_button">Cancel sleep</string>
+    <string name="smart_wake_active_note">Smart Wake is on — this is a best-effort estimate, not a medical sleep-stage reading.</string>
+
+    <!-- Alarm screen -->
+    <string name="alarm_wake_up">Wake up</string>
+    <string name="alarm_snooze">Snooze</string>
+    <string name="alarm_dismiss">Dismiss</string>
+    <string name="alarm_notification_title">Time to wake up</string>
+    <string name="alarm_notification_text">Tap to open your alarm</string>
+    <string name="alarm_channel_name">Alarm</string>
+    <string name="alarm_channel_desc">Wake-up alarm notifications</string>
+    <string name="smart_wake_channel_name">Smart Wake monitoring</string>
+    <string name="smart_wake_channel_desc">Background monitoring during your wake window</string>
+    <string name="smart_wake_monitoring_notification">Watching for a good moment to wake you…</string>
+
+    <!-- Rating -->
+    <string name="rating_title">How did you sleep?</string>
+    <string name="rating_very_good">Very good</string>
+    <string name="rating_good">Good</string>
+    <string name="rating_ok">Okay</string>
+    <string name="rating_bad">Bad</string>
+    <string name="rating_very_bad">Very bad</string>
+    <string name="woke_before_alarm_question">Did you wake up on your own before the alarm?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="save">Save</string>
+    <string name="skip">Skip</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_sleep_cycle_length">Average sleep cycle length</string>
+    <string name="settings_onset_delay">Usual time to fall asleep</string>
+    <string name="settings_alarm_sound">Alarm sound</string>
+    <string name="settings_volume">Volume</string>
+    <string name="settings_vibration">Vibration</string>
+    <string name="settings_snooze_enabled">Enable snooze</string>
+    <string name="settings_snooze_duration">Snooze duration</string>
+    <string name="settings_smart_wake">Smart Wake</string>
+    <string name="settings_smart_wake_desc">Best-effort motion-based wake timing when supported. Falls back to the cycle-based schedule otherwise. Not a medical sleep-stage detector.</string>
+    <string name="settings_dark_mode">Dark theme</string>
+    <string name="settings_time_format">24-hour time</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_battery_optimization">Allow alarms to run reliably (disable battery optimization)</string>
+    <string name="minutes_format">%1$d min</string>
+
+    <!-- History -->
+    <string name="history_title">Sleep history</string>
+    <string name="history_empty">No sleep sessions recorded yet.</string>
+    <string name="history_planned_duration">Planned</string>
+    <string name="history_actual_wake">Actual wake</string>
+    <string name="weekly_chart_title">This week</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Disclaimers -->
+    <string name="cycle_disclaimer">The 90-minute cycle is a common rough estimate, not an exact medical measurement. This app doesn\'t diagnose sleep stages.</string>
+</resources>
