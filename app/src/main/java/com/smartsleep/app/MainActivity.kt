@@ -10,6 +10,11 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import com.smartsleep.app.ui.navigation.SmartSleepNavGraph
 import com.smartsleep.app.ui.theme.SmartSleepTheme
 import kotlinx.coroutines.flow.first
@@ -29,9 +34,9 @@ class MainActivity : ComponentActivity() {
         val app = application as SmartSleepApplication
 
         setContent {
-            var isDark by androidx.compose.runtime.remember { androidx.compose.runtime.mutableStateOf(true) }
+            var isDark by remember { mutableStateOf(true) }
 
-            androidx.compose.runtime.LaunchedEffect(Unit) {
+            LaunchedEffect(Unit) {
                 app.repository.settingsFlow.collect { settings ->
                     isDark = settings.themeMode != com.smartsleep.app.domain.model.ThemeMode.LIGHT
                 }
